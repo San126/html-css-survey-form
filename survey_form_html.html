@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Feedback Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Feedback Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve our compaigns</p>
+      <div>
+        <form class="content" id="survey-form">
+          <fieldset>
+            <label for="name-label" class="labels" id="name-label">Name <input id="name" type="text" placeholder="Enter name" required /></label>
+            <label for="email-label" class="labels"  id="email-label">Email <input id="email" type="email" placeholder="Enter email" required /></label>
+            <label for="number-label" class="labels" id="number-label">Age (optional) <input class="labels"  id="number" type="number" min=18 max=45 placeholder="Enter age" /></label>
+            <fieldset name="gender" id="gender">
+              <legend>Gender</legend>
+              <label class="block"><input class="gender" type="radio" name="gender" value="female" /> Female</label>
+              <label class="block"><input class="gender" type="radio" name="gender" value="male" /> Male</label>
+            </fieldset>
+          <label class="labels" >Through which channels did you come across the campaign ?
+              <select id="dropdown">
+                <option selected=true disabled>Select option</option>
+                <option>TV</option>
+                <option>Facebook</option>
+                <option>Twitter</option>
+                <option>Instagram</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label class="labels">Did you find the campaign message clear and easy to understand?</label>
+            <label class="block"><input class="opinion" type="radio" name="opinion" value="definitely" /> Very Much</label>
+            <label class="block"><input class="opinion" type="radio" name="opinion" value="maybe" /> Not really</label>
+            <label class="block"><input class="opinion" type="radio" name="opinion" value="notsure" /> Somewhat</label>
+            <label class="labels">Can you identify specific facts or information from the campaign that you found particularly enlightening?
+              <label class="block">
+                <input type="checkbox" class="checks" value=1/> Health Impact</label>
+              <label class="block">
+                <input class="checks" type="checkbox" value=2/> Addiction and Dependency</label>
+              <label class="block">
+                <input class="checks" type="checkbox" value=3 /> Social Consequences</label>
+              <label class="block">
+                <input class="checks" type="checkbox" value=4 /> Youth and Underage Drinking</label>
+              <label class="block">
+                <input class="checks" type="checkbox" value=5 /> Economic Impact
+</label>
+              <label class="block">
+                <input class="checks" type="checkbox" value=6 /> Statistics and Trends</label>
+              <label class="block">
+                <input class="checks" type="checkbox" value=7 /> Campaign's Call to Action</label>
+            </label>
+          <labelfor="comments">What suggestions do you have for improving the campaign?</label>
+          <textarea id="comments" name="comments" rows=3 cols=30 placeholder="I recommend..." ></textarea>
+          </fieldset>
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      <div>
+    <div>
+  </body>
+</html>
