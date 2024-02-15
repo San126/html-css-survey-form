@@ -4,64 +4,78 @@ body {
   margin: 0;
   height: 100vh;
 }
+
 h1, p {
   font-family: Tahoma, serif;
   text-align: center;
   margin: 0 auto;
 }
+
 #title{
   padding: 50px 0 0 0;
 }
+
 form {
   width: 60vw;
   margin: 30px auto;
   max-width: 600px;
   padding-bottom: 2em;
 }
+
 input, select, label, textarea {
   display: block;
   width:100%;
   margin: 3px 0 3px 0;
-  vertical-align: middle;
+  align-items: center;
   min-height: 2em;
 }
+
 input, select, textarea{
   background-color: #7f4063;
   color: #f7f7f7;
   border: 1px solid #702963;
 }
+
 fieldset {
   border:0
 }
+
 .opinion, .checks, .gender {
   width: unset ;
   display: inline;
   margin: 0 0 0.1em 0;
 }
+
 .block {
   width: unset ;
   display: block;
   margin: 0.1em 0 0 0;
 }
+
 .labels {
  margin: 0.5em 0 0 0;
 }
+
 #gender {
   margin: 10px 0;
   padding: 0;
 }
+
 .container {
   background-image: linear-gradient(180deg, rgba(91,50,86, 0.5), rgba(128,0,128, 0.6), rgba(231,159,196, 0.9)),
    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
+
 .content {
   background: rgba(91,50,86, 0.7);
 }
+
 #description {
  font-style: italic;
  color : #D3D3D3;
  margin: 3px auto;
 }
+
 #submit {
   background-color: rgb(183,132,167);
   width: 95%;
